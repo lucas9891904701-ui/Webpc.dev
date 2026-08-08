@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>WebPC</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="dark">
+
+  <!-- DESKTOP -->
+  <div id="desktop">
+    <div id="icons"></div>
+    <div id="windows-layer"></div>
+  </div>
+
+  <!-- START MENU -->
+  <div id="start-menu" class="hidden">
+    <div class="start-header">
+      <span class="start-logo">🖥️ WebPC</span>
+    </div>
+    <div id="start-apps"></div>
+  </div>
+
+  <!-- TASKBAR -->
+  <div id="taskbar">
+    <button id="start-btn">
+      <span class="start-icon">⊞</span> Iniciar
+    </button>
+    <div id="taskbar-apps"></div>
+    <div id="clock"></div>
+  </div>
+
+  <script src="js/wm.js"></script>
+  <script src="js/apps/filemanager.js"></script>
+  <script src="js/apps/notepad.js"></script>
+  <script src="js/apps/calculator.js"></script>
+  <script src="js/apps/terminal.js"></script>
+  <script src="js/apps/settings.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
